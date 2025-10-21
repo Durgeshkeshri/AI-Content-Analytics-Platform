@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+numpy
+matplotlib
+python-jose
+passlib
+requests

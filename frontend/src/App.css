@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4fa;
+    margin: 0;
+  }
+  .dashboard {
+    max-width: 780px;
+    margin: 32px auto;
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #ddd;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login-box {
+    background: white;
+    padding: 32px;
+    margin: 64px auto;
+    max-width: 400px;
+    border-radius: 14px;
+    box-shadow: 0 1px 8px #bbb;
+  }
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+  }
+  button {
+    padding: 8px 18px;
+    background: #691eff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  button[type="button"] {
+    background: #dadada;
+    color: #222;
+  }
+  button:disabled {
+    opacity: 0.5;
+  }
+  .error {
+    color: red;
+    margin: 10px 0 0 0;
+  }
+  table {
+    width: 100%;
+    background: #fafafc;
+    border-radius: 5px;
+    margin: 18px 0;
+    box-shadow: 0 1px 4px #eee;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  .ai-insights, .analytics-section {
+    margin: 20px 0;
+  }
+  .insight-box {
+    background: #f9f7f6;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0.5px 2px #eee;
+  }
+  .add-content-form {
+    display: flex;
+    gap: 10px;
+    margin: 14px 0 20px 0;
+  }
+  @media (max-width: 600px) {
+    .dashboard, .login-box {
+      padding: 12px;
+      margin: 0;
+      max-width: 98%;
+    }
+    table, thead, tbody, th, td, tr {
+      font-size: 14px;
+    }
+  }
+  
